@@ -7,3 +7,9 @@ check for visitation
 put nodes children in queue 
 remove current node from queue 
 all of this is done until queue is empty
+
+why do we need a DNS?
+Domain Name system 
+DNS tranlates domain names to IP addresses so browsers can load internet resources. 
+"phonebook of internet"
+
