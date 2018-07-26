@@ -13,3 +13,7 @@ Domain Name system
 DNS tranlates domain names to IP addresses so browsers can load internet resources. 
 "phonebook of internet"
 
+is javaScript a single-threaded language?
+
+yes becuase everthing in javaScript is executed on a single timeline 
+
