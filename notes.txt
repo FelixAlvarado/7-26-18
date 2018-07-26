@@ -17,3 +17,19 @@ is javaScript a single-threaded language?
 
 yes becuase everthing in javaScript is executed on a single timeline 
 
+In which lifecycle methods should you make asynchronous fetches for data?
+component DId Mount. You can do it in componentWillMount but that's not recommended because componenet may not have rendered by the time the call has been completed.
+
+In which lifecycle methods can you call setState? 
+componenetWillMount (not recommended. use initial state)
+componenetDidMount 
+componenetWillReceiveProps
+componenetDidUpdate 
+
+In which order do React lifecycle methods run?
+componenetWillMount
+componenetDidMount
+componenetWillReceiveProps
+shouldComponenetMount
+componenetWillUpdate 
+componenetWillUnmount 
