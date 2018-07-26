@@ -1,0 +1,9 @@
+what re the steps for the BFS on a graph? 
+
+start with the starting node 
+then search all of that nodes children if they have not been visited 
+with each search you put each of the children in the queue and in order 
+check for visitation 
+put nodes children in queue 
+remove current node from queue 
+all of this is done until queue is empty
